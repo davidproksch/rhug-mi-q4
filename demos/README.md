@@ -10,3 +10,7 @@ This demo using the camel-context.xml file to configure a simple producer and co
 The producer will create a series of messages counting up to 1000. The message emitted can be modified by changing the camel-context.xml configuration file in src/main/resources/spring..
 
 The consumer will log the message to where the logger is configured to write log messages.  See <http://camel.apache.org/log.html> for further information on log configuration.
+
+
+## Demo 01 - Simple Producer and Consumer using Apache Camel.
+This demo is the same as Demo 00, with the difference of running in two different JVMs.
